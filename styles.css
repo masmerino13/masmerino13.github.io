@@ -1,0 +1,46 @@
+body {
+  font-size: 62.5%;
+  font-style: Arial;
+}
+
+.animation-box {
+  width: 75%;
+  height: 27.5rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.animation-container {
+  width: 1000rem;
+  height: 30rem;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: .8;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.8;
+  }
+}
+
+.fourth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 10.5rem;
+  left: 10%;
+  opacity: 0;
+  color: #295bd4;
+  animation: fadeInOut 1s infinite;
+}
+
+.follow {
+  font-size: 1rem;
+  text-align: right;
+}
