@@ -1,19 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body {
   font-size: 62.5%;
-  font-style: Arial;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .animation-box {
-  width: 75%;
-  height: 27.5rem;
+  width: 100vw;
+  height: 100vh;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
-}
-
-.animation-container {
-  width: 1000rem;
-  height: 30rem;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 
 @keyframes fadeInOut {
@@ -34,13 +32,14 @@ body {
   font-size: 3.4rem;
   position: absolute;
   top: 10.5rem;
-  left: 10%;
+  left: 0;
+  right: 0;
+  text-align: center;
   opacity: 0;
-  color: #295bd4;
+  color: #fff;
   animation: fadeInOut 1s infinite;
 }
 
 .follow {
   font-size: 1rem;
-  text-align: right;
 }
